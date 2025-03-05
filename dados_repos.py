@@ -9,7 +9,7 @@ class DadosRepositorios:
     def __init__(self, owner):
         self.owner = owner
         self.api_base_url = 'https://api.github.com'
-        self.access_token='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'
+        self.access_token= 'github_personal_token'
         self.headers = {'Authorization': 'Bearer ' + self.access_token,
                     'X-GitHub-Api-Version': '2022-11-28'}
 
